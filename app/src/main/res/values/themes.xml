@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Tema principal de tu app -->
+    <style name="Theme.WebView" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- Aquí podrías personalizar más adelante (colores, etc.) -->
+    </style>
+
+    <!-- Tema especial para el Splash -->
+    <style name="Theme.WebView.Splash" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- Fondo del splash -->
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+    </style>
+
+</resources>
